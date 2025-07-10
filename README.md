@@ -19,4 +19,28 @@ Just copy the unzipped 'status3' folder to the ‘scripts’ folder on your SD c
 
 ![image](https://github.com/user-attachments/assets/82fe358f-0e4d-4938-b767-c239697dc6ba)
 
+![image](https://github.com/user-attachments/assets/d26e2f5d-4747-4b21-8b6e-b755530f7698)
+
+![image](https://github.com/user-attachments/assets/821f65bb-5ac0-4aa6-a9a2-c04ca2b5edd8)
+
+![image](https://github.com/user-attachments/assets/cdf6f635-2fb5-4fe3-982b-8cc67effbcee)
+
+![image](https://github.com/user-attachments/assets/4dc3d44f-556c-4d8e-8ed6-e5f1daed490f)
+
+![image](https://github.com/user-attachments/assets/a11a9f51-f6a3-42c8-8bd8-785bb2900e9e)
+
+![image](https://github.com/user-attachments/assets/1649d510-9f46-41d6-b2d0-437071d0b9a5)
+
+![image](https://github.com/user-attachments/assets/13ceb1e1-45b1-4a91-b4e9-5d557a5fb0e7)
+
+![image](https://github.com/user-attachments/assets/d17aa27c-c98a-403b-9b72-4ae3bdd86b39)
+
+
+
+
+
+
+
+
+
 

@@ -1,6 +1,6 @@
 return {
   scriptName = "Status3",
-  source = "Source",
+  source = "Quelle",
   state1def = "Parameter 1",
   state2def = "Parameter 2",
   state3def = "Parameter 3",

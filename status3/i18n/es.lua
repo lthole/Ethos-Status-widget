@@ -14,6 +14,6 @@ return {
   color2 = "Estado 2 Color Fondo",
   color3 = "Estado 3 Color Fondo",
   debugMode = "Mostrar valores de depuración",
-  threshold = "Threshold"
+  threshold = "Umbral"
 }
   

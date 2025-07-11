@@ -14,5 +14,5 @@ return {
   color2 = "Couleur Etat 2",
   color3 = "Couleur Etat 3",
   debugMode = "Mode développeur",
-  threshold = "Threshold"
+  threshold = "Seuil"
 }

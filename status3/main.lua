@@ -12,18 +12,24 @@
 -- 11 2025-07-09 move the thresholds division to the config form
 
 
+-- **************************************************************************************
+-- ***		     widget	startup code      				                              *** 
+-- *** The code that is outside of the handlers will be executed on the 1st script    ***
+-- *** load (radio start).                                                            ***
+-- **************************************************************************************
+
+
 --  *************************************************
 --  ****************     debug header   *************
 --  *************************************************
 
-local debug1 = false                                   -- print some debug code including timestamps
+local debug1 = false  -- print some debug code including timestamps
 local modelName = model.name()
 local onStart = {}                                      
 
 --  *************************************************
 
---local translations = {de="Status3",en="Status3",es="Lua Estado",fr="Status3",it="Stato3"}
-
+--define function for retrieving translations from translation files 
 STR = assert(loadfile("i18n/i18n.lua"))().translate
 
 local function name()
@@ -36,7 +42,6 @@ local function create()
     end
     return {color1=lcd.RGB(0xF8, 0x00, 0x00), color2=lcd.RGB(0xF8, 0x80, 0x00), color3=lcd.RGB(0x00, 0xFC, 0x00), source=nil, value=nil, state1threshold=50, state2threshold=-50, fontsize=FONT_STD, state1text=STR("state1def"), state2text=STR("state2def"), state3text=STR("state3def"), debugmode=false}
 end
-
 
 
 local function paint(widget)

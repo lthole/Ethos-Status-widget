@@ -14,5 +14,5 @@ return {
   color2 = "Hintergrundfarbe 2",
   color3 = "Hintergrundfarbe 3",
   debugMode = "Werte für die Fehlersuche anzeigen",
-  threshold = "Threshold"
+  threshold = "Schwellenwert"
 }

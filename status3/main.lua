@@ -9,7 +9,7 @@
 -- 08 add debug mode so source values can be checked
 -- 09 prevent paint from running until we have a value
 -- 10 2025-06-30 add localisation for de, es, it, fr
--- 11 2025-07-09 move the thresholds division to the config form, turn title off by default
+-- 11 2025-07-09 move the thresholds division to the config form, turn title off by default; make STR local.
 
 
 -- **************************************************************************************
@@ -30,7 +30,7 @@ local onStart = {}
 --  *************************************************
 
 --define function for retrieving translations from translation files 
-STR = assert(loadfile("i18n/i18n.lua"))().translate
+local STR = assert(loadfile("i18n/i18n.lua"))().translate
 
 local function name()
   return STR("scriptName")

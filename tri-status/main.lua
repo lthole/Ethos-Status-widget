@@ -10,6 +10,7 @@
 -- 09 prevent paint from running until we have a value
 -- 10 2025-06-30 add localisation for de, es, it, fr
 -- 11 2025-07-09 move the thresholds division to the config form, turn title off by default; make STR local.
+-- 12 2025-07-12 rename widget from 'Status3' to 'Tri-Status' in the localisation files.
 
 
 -- **************************************************************************************

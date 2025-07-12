@@ -154,7 +154,7 @@ local function configure(widget)
     -- State 1 threshold
     line = form.addLine(STR("state1Threshold"))
     --f = form.addNumberField(line, nil, -10000, 10000,  function() return widget.state1threshold end, function(value) widget.state1threshold = value end);
-    f = form.addNumberField(line, nil, -10000, 10000,  function() return widget.state1threshold * 10 end, function(value) widget.state1threshold = value / 10 end);
+    f = form.addNumberField(line, nil, -1000, 1000,  function() return widget.state1threshold * 10 end, function(value) widget.state1threshold = value / 10 end);
     f:decimals(1)
     -- print("state1threshold"..widget.state1threshold) -- debug
 
@@ -172,7 +172,7 @@ local function configure(widget)
     line = form.addLine(STR("state2Threshold"))
     -- form.addNumberField(line, nil, minValue, maxValue, function() return value end, function(newValue) value = newValue end)
     -- f = form.addNumberField(line, nil, -10000, 10000, function() return widget.state2threshold end, function(value) widget.state2threshold = value end);
-    f = form.addNumberField(line, nil, -10000, 10000,  function() return widget.state2threshold * 10 end, function(value) widget.state2threshold = value / 10 end);
+    f = form.addNumberField(line, nil, -1000, 1000,  function() return widget.state2threshold * 10 end, function(value) widget.state2threshold = value / 10 end);
     f:decimals(1)
    -- print("state2threshold"..widget.state2threshold) -- debug
 

@@ -1,5 +1,5 @@
 # Ethos-TriStatus-widget
-An Ethos widget for displaying the Status of a source. It can display up to 3 states, like High, Medium, and Low. 
+An Ethos widget for displaying the Status of a source. It can display up to 3 states, like High, Medium, and Low, or 2 states like Throttle Active and Throttle Disabled.
 
 You select a source, and then optionally define two threshold values.
 - If the source value > threshold1, then State 1 will be displayed.

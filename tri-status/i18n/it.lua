@@ -1,5 +1,5 @@
 return {
-  scriptName = "Status3",
+  scriptName = "Tri-Status",
   source = "Sorgente",
   state1def = "Stato 1",
   state2def = "Stato 2",

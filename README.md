@@ -25,15 +25,20 @@ Just copy the unzipped 'tri-status' folder to the ‘scripts’ folder on your S
 
 ![image](https://github.com/user-attachments/assets/cdf6f635-2fb5-4fe3-982b-8cc67effbcee)
 
-![image](https://github.com/user-attachments/assets/4dc3d44f-556c-4d8e-8ed6-e5f1daed490f)
+<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/3208948e-df6d-4aa4-9960-adb9646e0784" />
 
-![image](https://github.com/user-attachments/assets/a11a9f51-f6a3-42c8-8bd8-785bb2900e9e)
 
-![image](https://github.com/user-attachments/assets/1649d510-9f46-41d6-b2d0-437071d0b9a5)
+<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/47959f60-8975-4eb8-926a-4a3923849407" />
 
-![image](https://github.com/user-attachments/assets/13ceb1e1-45b1-4a91-b4e9-5d557a5fb0e7)
 
-![image](https://github.com/user-attachments/assets/d17aa27c-c98a-403b-9b72-4ae3bdd86b39)
+<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/336bf834-94c3-4fde-894d-7deadbae8630" />
+
+
+<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/3d11ca17-fcee-4e70-ba25-a638f2de752a" />
+
+
+<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/e3f63414-6aad-4c30-9174-469768cf3284" />
+
 
 
 

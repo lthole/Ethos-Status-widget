@@ -17,7 +17,7 @@ There is a debug mode so that source and threshold values can be checked.
 Currently localization is supported for CS, ES, DE, FR, and IT. Please contact me if you can assist with translation to another language. The localization files are located in the tri-status/i18n folder.
 
 ### Installation
-Just copy the unzipped 'tri-status' folder to the ‘scripts’ folder on your SD card, then reboot your radio. The widget will appear as 'Tri-Status' in the 'Create widget' drop-down list when dding a widget. Assign your source, then check how your colours and labels need to be assigned under State 1,2 and 3 to give the correct indications.
+Just copy the unzipped 'tri-status' folder to the ‘scripts’ folder on your SD card, then reboot your radio. The widget will appear as 'Tri-Status' in the 'Create widget' drop-down list when adding a widget. Assign your source, then check how your colours and labels need to be assigned under State 1,2 and 3 to give the correct indications.
 
 ![image](https://github.com/user-attachments/assets/82fe358f-0e4d-4938-b767-c239697dc6ba)
 

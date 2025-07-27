@@ -33,13 +33,13 @@ Just copy the unzipped 'tri-status' folder to the ‘scripts’ folder on your S
 <img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/5d59a69c-b654-4bd8-b8ec-8645e97b9d23" />
 
 
-<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/336bf834-94c3-4fde-894d-7deadbae8630" />
+<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/0c5b4c06-2679-4b41-999f-3aa41fd1e09e" />
 
 
-<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/3d11ca17-fcee-4e70-ba25-a638f2de752a" />
+<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/15f4f776-79c4-4d6d-a1a2-1902bcc65d33" />
 
 
-<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/e3f63414-6aad-4c30-9174-469768cf3284" />
+<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/9830b561-5426-4071-a82b-2049970f7969" />
 
 Example with different text color:
 

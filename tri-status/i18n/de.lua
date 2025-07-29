@@ -13,6 +13,7 @@ return {
   color1 = "Hintergrundfarbe 1",
   color2 = "Hintergrundfarbe 2",
   color3 = "Hintergrundfarbe 3",
+  textcolor = "Textfarbe",
   debugMode = "Werte für die Fehlersuche anzeigen",
   threshold = "Schwellenwert"
 }

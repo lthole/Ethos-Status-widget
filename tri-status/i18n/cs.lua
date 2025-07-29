@@ -13,6 +13,7 @@ return {
   color1 = "Barva pozadí Stavu 1",
   color2 = "Barva pozadí Stavu 2",
   color3 = "Barva pozadí Stavu 3",
+  textcolor = "Barva textu",
   debugMode = "Zobrazit hodnoty pro ladění",
   threshold = "Prahová hodnota"
 }

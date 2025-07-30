@@ -13,6 +13,7 @@ return {
   color1 = "Colore Sfondo Stato 1",
   color2 = "Colore Sfondo Stato 2",
   color3 = "Colore Sfondo Stato 3",
+  textcolor = "Colore Testo", 
   debugMode = "Mostra Valori per debug",
   threshold = "Parametri"
 }

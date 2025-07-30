@@ -13,6 +13,7 @@ return {
   color1 = "Couleur Etat 1",
   color2 = "Couleur Etat 2",
   color3 = "Couleur Etat 3",
+  textcolor = "Couleur de texte",
   debugMode = "Mode développeur",
   threshold = "Seuil"
 }

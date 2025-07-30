@@ -11,6 +11,7 @@
 -- 10 2025-06-30 add localisation for de, es, it, fr
 -- 11 2025-07-09 move the thresholds division to the config form, turn title off by default; make STR local.
 -- 2.0 2025-07-12 rename widget from 'Status3' to 'Tri-Status' in the localisation files.
+-- 2.1 2025-07-27 make text colour configurable
 
 
 -- **************************************************************************************
@@ -24,7 +25,7 @@
 --  ****************     debug header   *************
 --  *************************************************
 
-local version="2.0"
+local version="2.1"
 local debug1 = false  -- print some debug code including timestamps
 local modelName = model.name()
 local onStart = {}                                      
@@ -42,7 +43,7 @@ local function create()
     if debug1 then
         print("               create lothars Status widget  @" .. os.clock())
     end
-    return {color1=lcd.RGB(0xF8, 0x00, 0x00), color2=lcd.RGB(0xF8, 0x80, 0x00), color3=lcd.RGB(0x00, 0xFC, 0x00), source=nil, value=nil, state1threshold=50, state2threshold=-50, fontsize=FONT_STD, state1text=STR("state1def"), state2text=STR("state2def"), state3text=STR("state3def"), debugmode=false}
+    return {color1=lcd.RGB(0xF8, 0x00, 0x00), color2=lcd.RGB(0xF8, 0x80, 0x00), color3=lcd.RGB(0x00, 0xFC, 0x00), textcolor=BLACK, source=nil, value=nil, state1threshold=50, state2threshold=-50, fontsize=FONT_STD, state1text=STR("state1def"), state2text=STR("state2def"), state3text=STR("state3def"), debugmode=false}
 end
 
 
@@ -77,7 +78,7 @@ local function paint(widget)
         lcd.color(widget.color1)
         lcd.drawFilledRectangle(0, 0, w, h)
         -- State1 Text
-        lcd.color(BLACK)
+        lcd.color(widget.textcolor)
         if widget.debugmode == true then
             --lcd.drawText(w / 2, (h - text_h)/ 2, widget.value, LEFT)
             s1thr = widget.state1threshold
@@ -92,8 +93,8 @@ local function paint(widget)
             -- lcd.color(widget.ri, widget.gi, widget.bi)
             lcd.color(widget.color2)
             lcd.drawFilledRectangle(0, 0, w, h)
-            -- State1 Text
-            lcd.color(BLACK)
+            -- State2 Text
+            lcd.color(widget.textcolor)
             if widget.debugmode == true then
                 --lcd.drawText(w / 2, (h - text_h)/ 2, , LEFT)
                 s2thr = widget.state2threshold
@@ -108,7 +109,7 @@ local function paint(widget)
             lcd.drawFilledRectangle(0, 0, w, h)
             -- print("lcd.color"..widget.color3) -- debug
             -- State3 Text
-            lcd.color(BLACK)
+            lcd.color(widget.textcolor)
             if widget.debugmode == true then
                 --lcd.drawText(w / 2, (h - text_h)/ 2, widget.value, LEFT)
                 s2thr = widget.state2threshold
@@ -197,6 +198,11 @@ local function configure(widget)
     line = form.addLine(STR("fontSize"))
     form.addChoiceField(line, nil, {{"Extra Small", FONT_XS}, {"Small", FONT_S}, {"Standard", FONT_STD}, {"Large", FONT_L}, {"Large Bold", FONT_L_BOLD}, {"Extra Large", FONT_XL}, {"Extra Extra Large", FONT_XXL}}, function() return widget.fontsize end, function(value) widget.fontsize = value end)
 
+    -- Text Color
+    line = form.addLine(STR("textcolor"))
+    -- form.addColorField(line, nil, function() return widget.ri, widget.gi, widget.bi end, function(ri, gi, bi) widget.ri, widget.gi, widget.bi = ri, gi, bi end)
+    form.addColorField(line, nil, function() return widget.textcolor end, function(textcolor) widget.textcolor = textcolor end)
+
     -- Debug mode
     line = form.addLine(STR("debugMode"))
     form.addBooleanField(line, nil, function() return widget.debugmode end, function(value) widget.debugmode = value end)
@@ -217,6 +223,7 @@ local function read(widget)
     widget.color1 = storage.read("color1")
     widget.color2 = storage.read("color2")
     widget.color3 = storage.read("color3")
+    widget.textcolor = storage.read("textcolor")
     widget.debugmode = storage.read("debugmode")
     if debug1 and onStart then print("184 lothar: finished reading widget config @" .. os.clock(),"   ***************************************   ") end
 end
@@ -232,11 +239,12 @@ local function write(widget)
     storage.write("color1", widget.color1)
     storage.write("color2", widget.color2)
     storage.write("color3", widget.color3)
+    storage.write("textcolor", widget.textcolor)
     storage.write("debugmode", widget.debugmode)
 end
 
 local function init()
-    system.registerWidget({key="status3", title = false, name=name, create=create, paint=paint, wakeup=wakeup, configure=configure, read=read, write=write})
+    system.registerWidget({key="tristat", title = false, name=name, create=create, paint=paint, wakeup=wakeup, configure=configure, read=read, write=write})
 end
 
 return {init=init}

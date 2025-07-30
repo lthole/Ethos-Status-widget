@@ -13,7 +13,7 @@ return {
   color1 = "Estado 1 Color Fondo",
   color2 = "Estado 2 Color Fondo",
   color3 = "Estado 3 Color Fondo",
-  textcolor = "Text color",
+  textcolor = "Color de texto",
   debugMode = "Mostrar valores de depuración",
   threshold = "Umbral"
 }

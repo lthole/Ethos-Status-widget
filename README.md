@@ -8,16 +8,14 @@ You select a source, and then optionally define two threshold values.
 
 You can define the text, the background color for all 3 states, and now also the text color.
 
-The default thresholds of +50.0 and -50.0 are fine for showing the status of a 3 position switch, which has values of +100%, 0% and -100%. If you select a 2 position switch, button or Logic Switch as the source, the middle state 2 will be ignored. If you select a telemetry sensor as the source, the thresholds can have values between +1000.0 and -1000.0
-
-In my example I used Pot2 as the source. Its value can be seen as the S2 slider in the screenshots.
+The default thresholds of +50.0 and -50.0 are fine for showing the status of a 3 position switch, which has values of +100%, 0% and -100%. If you select a 2 position switch, button or Logic Switch as the source, the middle state 2 will be ignored. If you select an analogue control or telemetry sensor as the source, the thresholds can have values between +1024.0 and -1024.0
 
 There is a debug mode so that source and threshold values can be checked.
 
-Currently localization is supported for CS, ES, DE, FR, and IT. Please contact me if you can assist with translation to another language. The localization files are located in the tri-status/i18n folder.
+Currently localization is supported for CS, ES, DE, FR, and IT. Thanks to @petasto, @Luznatural, @Wolepo, @bsongis and @mgsanna for the translations. Please contact me if you can assist with translation to another language. The localization files are located in the tri-status/i18n folder.
 
 ### Installation
-Just copy the unzipped 'tri-status' folder to the ‘scripts’ folder on your SD card, then reboot your radio. The widget will appear as 'Tri-Status' in the 'Create widget' drop-down list when adding a widget. Assign your source, then check how your colours and labels need to be assigned under State 1,2 and 3 to give the correct indications.
+Just copy the unzipped 'tri-status' folder to the ‘scripts’ folder on your SD card oe eMMC drive, then reboot your radio. The widget will appear as 'Tri-Status' in the 'Create widget' drop-down list when adding a widget. Assign your source, then check how your colours and labels need to be assigned under State 1,2 and 3 to give the correct indications.
 
 <img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/34511644-bad2-4574-ae37-01f9c9bb98a7" />
 

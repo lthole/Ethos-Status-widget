@@ -12,7 +12,7 @@ The default thresholds of +50.0 and -50.0 are fine for showing the status of a 3
 
 There is a debug mode so that source and threshold values can be checked.
 
-Currently localization is supported for CS, ES, DE, FR, and IT. Thanks to @petasto, @Luznatural, @Wolepo, @bsongis and @mgsanna for the translations. Please contact me if you can assist with translation to another language. The localization files are located in the tri-status/i18n folder.
+Currently localization is supported for CS, ES, DE, FR, and IT. Thanks to @pstasek, @Luznatural, @Wolepo, @bsongis and @mgsanna for the translations. Please contact me if you can assist with translation to another language. The localization files are located in the tri-status/i18n folder.
 
 ### Installation
 Just copy the unzipped 'tri-status' folder to the ‘scripts’ folder on your SD card oe eMMC drive, then reboot your radio. The widget will appear as 'Tri-Status' in the 'Create widget' drop-down list when adding a widget. Assign your source, then check how your colours and labels need to be assigned under State 1,2 and 3 to give the correct indications.
